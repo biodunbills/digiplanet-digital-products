@@ -1,0 +1,250 @@
+/* Digiplanet Digital Products - Admin Styles */
+
+/* Dashboard Widgets */
+.digiplanet-dashboard-widgets {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    margin: 20px 0;
+}
+
+.digiplanet-widget {
+    background: white;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+    text-align: center;
+}
+
+.digiplanet-widget h3 {
+    margin: 0 0 10px;
+    color: #23282d;
+    font-size: 14px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.digiplanet-widget-number {
+    font-size: 32px;
+    font-weight: 700;
+    color: #0073aa;
+    margin: 0;
+}
+
+/* Settings Page */
+.digiplanet-settings .nav-tab-wrapper {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ccd0d4;
+}
+
+.digiplanet-settings-content {
+    background: white;
+    border: 1px solid #ccd0d4;
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.digiplanet-settings .form-table th {
+    width: 200px;
+    padding: 20px 10px 20px 0;
+}
+
+.digiplanet-settings .form-table td {
+    padding: 15px 10px;
+}
+
+/* Product List Table */
+.wp-list-table .column-thumbnail {
+    width: 60px;
+    text-align: center;
+}
+
+.wp-list-table .column-price {
+    width: 100px;
+}
+
+.wp-list-table .column-sales {
+    width: 80px;
+}
+
+.wp-list-table .column-rating {
+    width: 100px;
+}
+
+.digiplanet-product-thumbnail {
+    width: 50px;
+    height: 50px;
+    border-radius: 4px;
+    object-fit: cover;
+}
+
+/* Meta Boxes */
+.digiplanet-metabox {
+    margin: 20px 0;
+}
+
+.digiplanet-metabox-section {
+    margin-bottom: 25px;
+    padding-bottom: 25px;
+    border-bottom: 1px solid #eee;
+}
+
+.digiplanet-metabox-section:last-child {
+    border-bottom: none;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.digiplanet-metabox-section h3 {
+    margin: 0 0 15px;
+    padding: 0;
+    font-size: 14px;
+    color: #23282d;
+}
+
+.digiplanet-form-row {
+    margin-bottom: 15px;
+}
+
+.digiplanet-form-row label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+}
+
+.digiplanet-form-row input[type="text"],
+.digiplanet-form-row input[type="number"],
+.digiplanet-form-row input[type="url"],
+.digiplanet-form-row select,
+.digiplanet-form-row textarea {
+    width: 100%;
+    max-width: 400px;
+}
+
+.digiplanet-form-row .description {
+    color: #666;
+    font-style: italic;
+    margin-top: 5px;
+}
+
+/* File Upload */
+.digiplanet-file-upload {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.digiplanet-file-preview {
+    width: 100px;
+    height: 100px;
+    border: 1px dashed #ddd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #999;
+}
+
+.digiplanet-file-preview.has-file {
+    border-color: #0073aa;
+    background: #f7f7f7;
+}
+
+.digiplanet-file-preview img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+/* License Status */
+.digiplanet-license-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.digiplanet-license-active {
+    background: #2ecc71;
+}
+
+.digiplanet-license-inactive {
+    background: #95a5a6;
+}
+
+.digiplanet-license-expired {
+    background: #e74c3c;
+}
+
+.digiplanet-license-revoked {
+    background: #34495e;
+}
+
+/* Order Status */
+.digiplanet-order-status {
+    display: inline-block;
+    padding: 3px 8px;
+    border-radius: 3px;
+    font-size: 12px;
+    font-weight: 600;
+    color: white;
+}
+
+.digiplanet-status-pending {
+    background: #f39c12;
+}
+
+.digiplanet-status-processing {
+    background: #3498db;
+}
+
+.digiplanet-status-completed {
+    background: #2ecc71;
+}
+
+.digiplanet-status-cancelled {
+    background: #e74c3c;
+}
+
+/* Tabs */
+.digiplanet-tabs {
+    display: flex;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.digiplanet-tab {
+    padding: 10px 20px;
+    background: #f7f7f7;
+    border: 1px solid #ddd;
+    border-bottom: none;
+    margin-right: 5px;
+    cursor: pointer;
+    border-radius: 4px 4px 0 0;
+}
+
+.digiplanet-tab.active {
+    background: white;
+    border-bottom: 1px solid white;
+    margin-bottom: -1px;
+}
+
+.digiplanet-tab-content {
+    display: none;
+}
+
+.digiplanet-tab-content.active {
+    display: block;
+}
+
+/* Responsive */
+@media (max-width: 782px) {
+    .digiplanet-dashboard-widgets {
+        grid-template-columns: 1fr;
+    }
+    
+    .digiplanet-settings .form-table th {
+        width: auto;
+        padding: 10px 0;
+    }
+}

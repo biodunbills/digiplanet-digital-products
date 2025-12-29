@@ -1,0 +1,1004 @@
+# Copyright (C) 2024 Digiplanet Solutions LLC
+# This file is distributed under the same license as the Digiplanet Digital Products plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Digiplanet Digital Products 1.0.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-01-15 10:00+0000\n"
+"PO-Revision-Date: 2024-01-15 10:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.0\n"
+
+#: digiplanet-digital-products.php:50
+msgid "Digiplanet Digital Products"
+msgstr ""
+
+#: digiplanet-digital-products.php:51
+msgid "Sell digital products online with Stripe and Paystack payment options. Fully integrated with Elementor."
+msgstr ""
+
+#: includes/class-core.php:45
+msgid "Digital Products"
+msgstr ""
+
+#: includes/class-core.php:46
+msgid "Digital Product"
+msgstr ""
+
+#: includes/class-core.php:47
+msgid "Add New Product"
+msgstr ""
+
+#: includes/class-core.php:48
+msgid "Add New Digital Product"
+msgstr ""
+
+#: includes/class-core.php:49
+msgid "Edit Digital Product"
+msgstr ""
+
+#: includes/class-core.php:50
+msgid "New Digital Product"
+msgstr ""
+
+#: includes/class-core.php:51
+msgid "View Digital Product"
+msgstr ""
+
+#: includes/class-core.php:52
+msgid "Search Digital Products"
+msgstr ""
+
+#: includes/class-core.php:53
+msgid "No digital products found"
+msgstr ""
+
+#: includes/class-core.php:54
+msgid "No digital products found in trash"
+msgstr ""
+
+#: includes/class-core.php:74
+msgid "Orders"
+msgstr ""
+
+#: includes/class-core.php:75
+msgid "Order"
+msgstr ""
+
+#: includes/class-core.php:76
+msgid "Add New Order"
+msgstr ""
+
+#: includes/class-core.php:77
+msgid "Add New Order"
+msgstr ""
+
+#: includes/class-core.php:78
+msgid "Edit Order"
+msgstr ""
+
+#: includes/class-core.php:79
+msgid "New Order"
+msgstr ""
+
+#: includes/class-core.php:80
+msgid "View Order"
+msgstr ""
+
+#: includes/class-core.php:81
+msgid "Search Orders"
+msgstr ""
+
+#: includes/class-core.php:82
+msgid "No orders found"
+msgstr ""
+
+#: includes/class-core.php:83
+msgid "No orders found in trash"
+msgstr ""
+
+#: includes/class-core.php:104
+msgid "Product Categories"
+msgstr ""
+
+#: includes/class-core.php:105
+msgid "Product Category"
+msgstr ""
+
+#: includes/class-core.php:106
+msgid "Search Categories"
+msgstr ""
+
+#: includes/class-core.php:107
+msgid "All Categories"
+msgstr ""
+
+#: includes/class-core.php:108
+msgid "Parent Category"
+msgstr ""
+
+#: includes/class-core.php:109
+msgid "Parent Category:"
+msgstr ""
+
+#: includes/class-core.php:110
+msgid "Edit Category"
+msgstr ""
+
+#: includes/class-core.php:111
+msgid "Update Category"
+msgstr ""
+
+#: includes/class-core.php:112
+msgid "Add New Category"
+msgstr ""
+
+#: includes/class-core.php:113
+msgid "New Category Name"
+msgstr ""
+
+#: includes/class-core.php:114
+msgid "Categories"
+msgstr ""
+
+#: includes/class-core.php:131
+msgid "Product Tags"
+msgstr ""
+
+#: includes/class-core.php:132
+msgid "Product Tag"
+msgstr ""
+
+#: includes/class-core.php:133
+msgid "Search Tags"
+msgstr ""
+
+#: includes/class-core.php:134
+msgid "All Tags"
+msgstr ""
+
+#: includes/class-core.php:135
+msgid "Edit Tag"
+msgstr ""
+
+#: includes/class-core.php:136
+msgid "Update Tag"
+msgstr ""
+
+#: includes/class-core.php:137
+msgid "Add New Tag"
+msgstr ""
+
+#: includes/class-core.php:138
+msgid "New Tag Name"
+msgstr ""
+
+#: includes/class-core.php:139
+msgid "Tags"
+msgstr ""
+
+#: includes/class-core.php:194
+msgid "Login to Your Account"
+msgstr ""
+
+#: includes/class-core.php:200
+msgid "Email Address"
+msgstr ""
+
+#: includes/class-core.php:201
+msgid "Password"
+msgstr ""
+
+#: includes/class-core.php:202
+msgid "Remember Me"
+msgstr ""
+
+#: includes/class-core.php:203
+msgid "Login"
+msgstr ""
+
+#: includes/class-core.php:210
+msgid "Lost your password?"
+msgstr ""
+
+#: includes/class-core.php:212
+msgid "Create an Account"
+msgstr ""
+
+#: includes/class-account-manager.php:30
+msgid "Email address already exists."
+msgstr ""
+
+#: includes/class-account-manager.php:59
+msgid "Account created successfully."
+msgstr ""
+
+#: includes/class-account-manager.php:84
+msgid "Software client account created successfully."
+msgstr ""
+
+#: includes/class-account-manager.php:126
+msgid "Profile updated successfully."
+msgstr ""
+
+#: includes/class-account-manager.php:143
+msgid "Current password is incorrect."
+msgstr ""
+
+#: includes/class-account-manager.php:152
+msgid "Password changed successfully."
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:120
+msgid "Dashboard"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:127
+msgid "My Products"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:134
+msgid "Orders"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:141
+msgid "Licenses"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:148
+msgid "Downloads"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:155
+msgid "Projects"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:162
+msgid "Support"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:169
+msgid "Documents"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:176
+msgid "Settings"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:183
+msgid "Logout"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:230
+msgid "Digital Customer"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:232
+msgid "Software Client"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:234
+msgid "Administrator"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:236
+msgid "Customer"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:252
+msgid "Page not found."
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:283
+msgid "My Orders"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:287
+msgid "You have not placed any orders yet."
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:289
+msgid "Browse Products"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:297
+msgid "Order"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:299
+msgid "Date"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:301
+msgid "Status"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:303
+msgid "Payment"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:305
+msgid "Total"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:307
+msgid "Actions"
+msgstr ""
+
+#: modules/user-portal/class-user-portal.php:322
+msgid "View"
+msgstr ""
+
+#: admin/views/settings.php:25
+msgid "Digiplanet Settings"
+msgstr ""
+
+#: admin/views/settings.php:34
+msgid "General"
+msgstr ""
+
+#: admin/views/settings.php:35
+msgid "Currency"
+msgstr ""
+
+#: admin/views/settings.php:36
+msgid "Downloads"
+msgstr ""
+
+#: admin/views/settings.php:37
+msgid "Stripe"
+msgstr ""
+
+#: admin/views/settings.php:38
+msgid "Paystack"
+msgstr ""
+
+#: admin/views/settings.php:39
+msgid "Email"
+msgstr ""
+
+#: admin/views/settings.php:40
+msgid "Pages"
+msgstr ""
+
+#: admin/views/settings.php:49
+msgid "Enable Reviews"
+msgstr ""
+
+#: admin/views/settings.php:51
+msgid "Allow customers to leave reviews for products."
+msgstr ""
+
+#: admin/views/settings.php:56
+msgid "Enable Ratings"
+msgstr ""
+
+#: admin/views/settings.php:58
+msgid "Allow customers to rate products."
+msgstr ""
+
+#: admin/views/settings.php:63
+msgid "Enable Tax"
+msgstr ""
+
+#: admin/views/settings.php:65
+msgid "Enable tax calculations."
+msgstr ""
+
+#: admin/views/settings.php:70
+msgid "Tax Rate (%)"
+msgstr ""
+
+#: admin/views/settings.php:72
+msgid "Tax rate percentage."
+msgstr ""
+
+#: admin/views/settings.php:77
+msgid "Enable Coupons"
+msgstr ""
+
+#: admin/views/settings.php:79
+msgid "Enable coupon code functionality."
+msgstr ""
+
+#: admin/views/settings.php:84
+msgid "Products Per Page"
+msgstr ""
+
+#: admin/views/settings.php:86
+msgid "Number of products to show per page."
+msgstr ""
+
+#: admin/views/settings.php:94
+msgid "Currency Position"
+msgstr ""
+
+#: admin/views/settings.php:99
+msgid "Left ($99.99)"
+msgstr ""
+
+#: admin/views/settings.php:100
+msgid "Right (99.99$)"
+msgstr ""
+
+#: admin/views/settings.php:101
+msgid "Left with space ($ 99.99)"
+msgstr ""
+
+#: admin/views/settings.php:102
+msgid "Right with space (99.99 $)"
+msgstr ""
+
+#: admin/views/settings.php:108
+msgid "Thousand Separator"
+msgstr ""
+
+#: admin/views/settings.php:110
+msgid "Character to separate thousands."
+msgstr ""
+
+#: admin/views/settings.php:115
+msgid "Decimal Separator"
+msgstr ""
+
+#: admin/views/settings.php:117
+msgid "Character to separate decimals."
+msgstr ""
+
+#: admin/views/settings.php:122
+msgid "Number of Decimals"
+msgstr ""
+
+#: admin/views/settings.php:124
+msgid "Number of decimal points to show."
+msgstr ""
+
+#: admin/views/settings.php:132
+msgid "Download Limit"
+msgstr ""
+
+#: admin/views/settings.php:134
+msgid "Maximum number of times a file can be downloaded. Set to 0 for unlimited."
+msgstr ""
+
+#: admin/views/settings.php:139
+msgid "Download Expiry (days)"
+msgstr ""
+
+#: admin/views/settings.php:141
+msgid "Number of days download links are valid. Set to 0 for never expire."
+msgstr ""
+
+#: admin/views/settings.php:146
+msgid "License Expiry (days)"
+msgstr ""
+
+#: admin/views/settings.php:148
+msgid "Number of days before licenses expire. Set to 0 for never expire."
+msgstr ""
+
+#: admin/views/settings.php:156
+msgid "Enable Stripe"
+msgstr ""
+
+#: admin/views/settings.php:158
+msgid "Enable Stripe payment gateway."
+msgstr ""
+
+#: admin/views/settings.php:163
+msgid "Test Mode"
+msgstr ""
+
+#: admin/views/settings.php:165
+msgid "Enable test mode for Stripe."
+msgstr ""
+
+#: admin/views/settings.php:170
+msgid "Test Publishable Key"
+msgstr ""
+
+#: admin/views/settings.php:175
+msgid "Test Secret Key"
+msgstr ""
+
+#: admin/views/settings.php:180
+msgid "Live Publishable Key"
+msgstr ""
+
+#: admin/views/settings.php:185
+msgid "Live Secret Key"
+msgstr ""
+
+#: admin/views/settings.php:193
+msgid "Enable Paystack"
+msgstr ""
+
+#: admin/views/settings.php:195
+msgid "Enable Paystack payment gateway."
+msgstr ""
+
+#: admin/views/settings.php:200
+msgid "Test Mode"
+msgstr ""
+
+#: admin/views/settings.php:202
+msgid "Enable test mode for Paystack."
+msgstr ""
+
+#: admin/views/settings.php:207
+msgid "Test Public Key"
+msgstr ""
+
+#: admin/views/settings.php:212
+msgid "Test Secret Key"
+msgstr ""
+
+#: admin/views/settings.php:217
+msgid "Live Public Key"
+msgstr ""
+
+#: admin/views/settings.php:222
+msgid "Live Secret Key"
+msgstr ""
+
+#: admin/views/settings.php:230
+msgid "From Name"
+msgstr ""
+
+#: admin/views/settings.php:232
+msgid "Name that appears in the \"From\" field of emails."
+msgstr ""
+
+#: admin/views/settings.php:237
+msgid "From Email Address"
+msgstr ""
+
+#: admin/views/settings.php:239
+msgid "Email address that appears in the \"From\" field of emails."
+msgstr ""
+
+#: admin/views/settings.php:247
+msgid "Cart Page"
+msgstr ""
+
+#: admin/views/settings.php:249
+msgid "Page where the cart will be displayed."
+msgstr ""
+
+#: admin/views/settings.php:254
+msgid "Checkout Page"
+msgstr ""
+
+#: admin/views/settings.php:256
+msgid "Page where the checkout will be displayed."
+msgstr ""
+
+#: admin/views/settings.php:261
+msgid "Account Page"
+msgstr ""
+
+#: admin/views/settings.php:263
+msgid "Page where the customer account area will be displayed."
+msgstr ""
+
+#: admin/views/settings.php:268
+msgid "Terms & Conditions Page"
+msgstr ""
+
+#: admin/views/settings.php:270
+msgid "Page containing your terms and conditions."
+msgstr ""
+
+#: admin/views/settings.php:275
+msgid "Privacy Policy Page"
+msgstr ""
+
+#: admin/views/settings.php:277
+msgid "Page containing your privacy policy."
+msgstr ""
+
+#: admin/views/settings.php:282
+msgid "Save Changes"
+msgstr ""
+
+#: admin/views/orders.php:25
+msgid "Orders"
+msgstr ""
+
+#: admin/views/orders.php:31
+msgid "Total Orders"
+msgstr ""
+
+#: admin/views/orders.php:37
+msgid "Total Revenue"
+msgstr ""
+
+#: admin/views/orders.php:43
+msgid "Completed"
+msgstr ""
+
+#: admin/views/orders.php:49
+msgid "Pending"
+msgstr ""
+
+#: admin/views/orders.php:60
+msgid "Bulk Actions"
+msgstr ""
+
+#: admin/views/orders.php:61
+msgid "Mark as Processing"
+msgstr ""
+
+#: admin/views/orders.php:62
+msgid "Mark as Completed"
+msgstr ""
+
+#: admin/views/orders.php:63
+msgid "Mark as Cancelled"
+msgstr ""
+
+#: admin/views/orders.php:64
+msgid "Delete"
+msgstr ""
+
+#: admin/views/orders.php:65
+msgid "Apply"
+msgstr ""
+
+#: admin/views/orders.php:73
+msgid "%d items"
+msgstr ""
+
+#: admin/views/orders.php:99
+msgid "Customer"
+msgstr ""
+
+#: admin/views/orders.php:163
+msgid "Recent Orders"
+msgstr ""
+
+#: templates/email/license-details.php:14
+msgid "Your License Details"
+msgstr ""
+
+#: templates/email/license-details.php:15
+msgid "Thank you for your purchase!"
+msgstr ""
+
+#: templates/email/license-details.php:67
+msgid "Order Information"
+msgstr ""
+
+#: templates/email/license-details.php:72
+msgid "Order Number"
+msgstr ""
+
+#: templates/email/license-details.php:77
+msgid "Order Date"
+msgstr ""
+
+#: templates/email/license-details.php:82
+msgid "Customer Name"
+msgstr ""
+
+#: templates/email/license-details.php:87
+msgid "Email Address"
+msgstr ""
+
+#: templates/email/license-details.php:98
+msgid "License Keys"
+msgstr ""
+
+#: templates/email/license-details.php:113
+msgid "Active"
+msgstr ""
+
+#: templates/email/license-details.php:138
+msgid "No license key generated for this product."
+msgstr ""
+
+#: templates/email/license-details.php:152
+msgid "Ready to Download?"
+msgstr ""
+
+#: templates/email/license-details.php:154
+msgid "Download Your Files"
+msgstr ""
+
+#: templates/email/license-details.php:162
+msgid "How to Use Your License"
+msgstr ""
+
+#: templates/email/license-details.php:165
+msgid "Download the software files from your account dashboard"
+msgstr ""
+
+#: templates/email/license-details.php:166
+msgid "Install the software on your website/server"
+msgstr ""
+
+#: templates/email/license-details.php:167
+msgid "Enter the license key when prompted during installation"
+msgstr ""
+
+#: templates/email/license-details.php:168
+msgid "Activate the license through the software settings"
+msgstr ""
+
+#: templates/email/license-details.php:169
+msgid "Enjoy your premium digital product!"
+msgstr ""
+
+#: templates/email/license-details.php:175
+msgid "Need Help?"
+msgstr ""
+
+#: templates/email/license-details.php:176
+msgid "Our support team is here to help you with any questions or issues."
+msgstr ""
+
+#: templates/email/license-details.php:179
+msgid "Visit Support Center"
+msgstr ""
+
+#: templates/email/license-details.php:181
+msgid "Contact Support"
+msgstr ""
+
+#: templates/email/license-details.php:183
+msgid "View Documentation"
+msgstr ""
+
+#: templates/email/license-details.php:191
+msgid "All rights reserved."
+msgstr ""
+
+#: templates/email/license-details.php:195
+msgid "Terms of Service"
+msgstr ""
+
+#: templates/email/license-details.php:197
+msgid "Privacy Policy"
+msgstr ""
+
+#: templates/email/license-details.php:199
+msgid "Refund Policy"
+msgstr ""
+
+#: templates/email/license-details.php:201
+msgid "Unsubscribe"
+msgstr ""
+
+#: templates/account/login.php:112
+msgid "Sign In to Your Account"
+msgstr ""
+
+#: templates/account/login.php:113
+msgid "Enter your credentials to access your account"
+msgstr ""
+
+#: templates/account/login.php:128
+msgid "Email Address or Username"
+msgstr ""
+
+#: templates/account/login.php:140
+msgid "Forgot password?"
+msgstr ""
+
+#: templates/account/login.php:150
+msgid "Sign In"
+msgstr ""
+
+#: templates/account/login.php:157
+msgid "Don't have an account?"
+msgstr ""
+
+#: templates/account/login.php:158
+msgid "Create one now"
+msgstr ""
+
+#: templates/account/login.php:165
+msgid "Or sign in with"
+msgstr ""
+
+#: templates/account/login.php:169
+msgid "Google"
+msgstr ""
+
+#: templates/account/login.php:173
+msgid "Facebook"
+msgstr ""
+
+#: templates/account/login.php:177
+msgid "GitHub"
+msgstr ""
+
+#: templates/account/login.php:185
+msgid "By signing in, you agree to our"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:112
+msgid "Paystack Checkout"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:116
+msgid "Cart"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:120
+msgid "Checkout"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:124
+msgid "Payment"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:128
+msgid "Complete"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:140
+msgid "Order Summary"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:170
+msgid "Quantity: %d"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:180
+msgid "Subtotal"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:186
+msgid "Tax"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:201
+msgid "Accepted Payment Methods"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:223
+msgid "Secure Checkout"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:224
+msgid "Your payment information is encrypted and secure. We never store your card details."
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:232
+msgid "Payment Details"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:244
+msgid "Test Mode Enabled"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:245
+msgid "Use test card: 5061 0688 0122 2224 (Any expiry date, any CVV)"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:256
+msgid "Full Name"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:264
+msgid "Phone Number"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:272
+msgid "Select Payment Method"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:277
+msgid "Debit/Credit Card"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:283
+msgid "Bank Transfer"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:289
+msgid "Mobile Money"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:298
+msgid "Card Number"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:307
+msgid "Expiry Date"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:315
+msgid "CVV"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:334
+msgid "After submitting, you will receive bank transfer details. Payment must be completed within 24 hours."
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:344
+msgid "Mobile Network"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:346
+msgid "Select Network"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:353
+msgid "Mobile Number"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:364
+msgid "I agree to the %s and authorize this payment"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:372
+msgid "Back to Cart"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:375
+msgid "Pay %s"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:383
+msgid "Need help?"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:384
+msgid "Contact Support"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:385
+msgid "or call"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:397
+msgid "Processing Payment"
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:398
+msgid "Please wait while we process your payment. Do not close this window."
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:407
+msgid "Initiating payment..."
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:421
+msgid "Payment successful! Processing order..."
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:435
+msgid "Payment verification failed. Please contact support."
+msgstr ""
+
+#: templates/checkout/paystack-checkout.php:445
+msgid "Payment was cancelled."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Digiplanet Digital Products"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://digiplanetsolutions.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Sell digital products online with Stripe and Paystack payment options. Fully integrated with Elementor."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Digiplanet Solutions LLC"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://digiplanetsolutions.com"
+msgstr ""

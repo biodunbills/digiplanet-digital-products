@@ -1,0 +1,72 @@
+<?xml version="1.0"?>
+<ruleset name="Digiplanet Digital Products">
+    <description>PHP_CodeSniffer rules for Digiplanet Digital Products plugin.</description>
+
+    <!-- Show progress -->
+    <arg value="p"/>
+    <arg name="colors"/>
+
+    <!-- Use WordPress coding standards -->
+    <rule ref="WordPress">
+        <exclude name="WordPress.Files.FileName"/>
+        <exclude name="WordPress.NamingConventions.ValidFunctionName.MethodNameInvalid"/>
+        <exclude name="WordPress.NamingConventions.ValidVariableName"/>
+        <exclude name="Generic.Commenting.DocComment.ShortNotCapital"/>
+    </rule>
+
+    <!-- Check PHP version compatibility -->
+    <config name="testVersion" value="7.4-"/>
+
+    <!-- Set file encoding -->
+    <arg name="encoding" value="utf-8"/>
+
+    <!-- Exclude vendor and node_modules directories -->
+    <exclude-pattern>*/vendor/*</exclude-pattern>
+    <exclude-pattern>*/node_modules/*</exclude-pattern>
+    <exclude-pattern>*/tests/*</exclude-pattern>
+
+    <!-- Allow long lines for URLs and translations -->
+    <rule ref="Generic.Files.LineLength">
+        <properties>
+            <property name="lineLimit" value="120"/>
+            <property name="absoluteLineLimit" value="140"/>
+        </properties>
+        <exclude-pattern>*/languages/*</exclude-pattern>
+    </rule>
+
+    <!-- Allow alternative syntax for control structures in templates -->
+    <rule ref="Generic.ControlStructures.InlineControlStructure">
+        <exclude-pattern>*/templates/*</exclude-pattern>
+        <exclude-pattern>*/views/*</exclude-pattern>
+    </rule>
+
+    <!-- Allow short array syntax -->
+    <rule ref="Generic.Arrays.DisallowShortArraySyntax.Found">
+        <severity>0</severity>
+    </rule>
+
+    <!-- Specific rule adjustments -->
+    <rule ref="WordPress.WP.I18n">
+        <properties>
+            <property name="text_domain" value="digiplanet-digital-products"/>
+        </properties>
+    </rule>
+
+    <rule ref="WordPress.WhiteSpace.ControlStructureSpacing">
+        <properties>
+            <property name="blank_line_check" value="true"/>
+        </properties>
+    </rule>
+
+    <!-- Allow die() and exit() in template files -->
+    <rule ref="WordPress.Security.EscapeOutput">
+        <exclude-pattern>*/templates/*</exclude-pattern>
+        <exclude-pattern>*/views/*</exclude-pattern>
+    </rule>
+
+    <!-- Allow output in template files -->
+    <rule ref="WordPress.Security.EscapeOutput.OutputNotEscaped">
+        <exclude-pattern>*/templates/*</exclude-pattern>
+        <exclude-pattern>*/views/*</exclude-pattern>
+    </rule>
+</ruleset>

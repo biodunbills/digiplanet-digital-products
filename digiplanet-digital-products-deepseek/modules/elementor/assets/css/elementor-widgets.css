@@ -1,0 +1,624 @@
+/* Elementor Widgets CSS */
+
+/* Common Styles */
+.digiplanet-elementor-widget {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+}
+
+/* Alert Styles */
+.digiplanet-alert {
+    padding: 15px 20px;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+}
+
+.digiplanet-alert-warning {
+    color: #856404;
+    background-color: #fff3cd;
+    border-color: #ffeaa7;
+}
+
+/* Product Grid Widget */
+.digiplanet-product-grid-widget .digiplanet-products-grid {
+    display: grid;
+    gap: 30px;
+}
+
+.digiplanet-product-grid-widget .digiplanet-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.digiplanet-product-grid-widget .digiplanet-col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.digiplanet-product-grid-widget .digiplanet-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.digiplanet-product-grid-widget .digiplanet-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.digiplanet-product-grid-widget .digiplanet-col-5 {
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.digiplanet-product-grid-widget .digiplanet-col-6 {
+    grid-template-columns: repeat(6, 1fr);
+}
+
+/* Product Card */
+.digiplanet-product-card {
+    position: relative;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.digiplanet-product-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.digiplanet-product-image {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 4/3;
+}
+
+.digiplanet-product-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.digiplanet-product-card:hover .digiplanet-product-image img {
+    transform: scale(1.05);
+}
+
+.digiplanet-product-badges {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+
+.digiplanet-sale-badge,
+.digiplanet-featured-badge,
+.digiplanet-new-badge {
+    padding: 4px 8px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    border-radius: 3px;
+    color: white;
+}
+
+.digiplanet-sale-badge {
+    background: #46b450;
+}
+
+.digiplanet-featured-badge {
+    background: #2271b1;
+}
+
+.digiplanet-new-badge {
+    background: #ffb900;
+}
+
+.digiplanet-product-actions {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    z-index: 2;
+}
+
+.digiplanet-action-btn {
+    width: 36px;
+    height: 36px;
+    background: white;
+    border: none;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    opacity: 0;
+    transform: translateY(10px);
+    transition: all 0.3s ease;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.digiplanet-product-card:hover .digiplanet-action-btn {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.digiplanet-action-btn:hover {
+    background: #2271b1;
+    color: white;
+}
+
+.digiplanet-action-btn .dashicons {
+    font-size: 16px;
+    width: 16px;
+    height: 16px;
+}
+
+.digiplanet-product-content {
+    padding: 20px;
+}
+
+.digiplanet-product-category {
+    margin-bottom: 8px;
+}
+
+.digiplanet-product-category a {
+    font-size: 12px;
+    color: #646970;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.digiplanet-product-category a:hover {
+    color: #2271b1;
+}
+
+.digiplanet-product-title {
+    margin: 0 0 10px 0;
+    font-size: 16px;
+    line-height: 1.4;
+}
+
+.digiplanet-product-title a {
+    color: #1d2327;
+    text-decoration: none;
+}
+
+.digiplanet-product-title a:hover {
+    color: #2271b1;
+}
+
+.digiplanet-product-rating {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    margin-bottom: 10px;
+}
+
+.digiplanet-star-rating {
+    display: flex;
+    gap: 2px;
+}
+
+.digiplanet-star-rating .dashicons {
+    font-size: 14px;
+    width: 14px;
+    height: 14px;
+    color: #ffb900;
+}
+
+.digiplanet-review-count {
+    font-size: 12px;
+    color: #646970;
+}
+
+.digiplanet-product-price {
+    margin-bottom: 15px;
+}
+
+.digiplanet-price {
+    font-size: 18px;
+    font-weight: 600;
+    color: #1d2327;
+}
+
+.digiplanet-sale-price {
+    color: #46b450;
+}
+
+.digiplanet-regular-price {
+    margin-left: 8px;
+    font-size: 14px;
+    text-decoration: line-through;
+    color: #646970;
+}
+
+.digiplanet-product-excerpt {
+    font-size: 14px;
+    color: #646970;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+.digiplanet-product-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #646970;
+    padding-top: 15px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.digiplanet-product-sales,
+.digiplanet-product-views {
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.digiplanet-product-sales .dashicons,
+.digiplanet-product-views .dashicons {
+    font-size: 12px;
+}
+
+.digiplanet-add-to-cart-btn {
+    width: 100%;
+    padding: 12px;
+    background: #2271b1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
+
+.digiplanet-add-to-cart-btn:hover {
+    background: #135e96;
+}
+
+.digiplanet-add-to-cart-btn .dashicons {
+    font-size: 16px;
+}
+
+/* Product Carousel Widget */
+.digiplanet-product-carousel-widget .slick-slider {
+    position: relative;
+}
+
+.digiplanet-product-carousel-widget .slick-list {
+    margin: 0 -15px;
+}
+
+.digiplanet-product-carousel-widget .slick-slide {
+    padding: 0 15px;
+}
+
+.digiplanet-product-carousel-widget .slick-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 10;
+    width: 40px;
+    height: 40px;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.digiplanet-product-carousel-widget .slick-arrow:hover {
+    background: #2271b1;
+    border-color: #2271b1;
+    color: white;
+}
+
+.digiplanet-product-carousel-widget .slick-arrow.slick-prev {
+    left: -20px;
+}
+
+.digiplanet-product-carousel-widget .slick-arrow.slick-next {
+    right: -20px;
+}
+
+.digiplanet-product-carousel-widget .slick-dots {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+
+.digiplanet-product-carousel-widget .slick-dots li {
+    display: inline-block;
+}
+
+.digiplanet-product-carousel-widget .slick-dots button {
+    width: 10px;
+    height: 10px;
+    background: #dcdcde;
+    border: none;
+    border-radius: 50%;
+    text-indent: -9999px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.digiplanet-product-carousel-widget .slick-dots li.slick-active button {
+    background: #2271b1;
+    transform: scale(1.2);
+}
+
+/* Product Categories Widget */
+.digiplanet-categories-grid {
+    display: grid;
+    gap: 30px;
+}
+
+.digiplanet-categories-grid .digiplanet-col-1 {
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.digiplanet-categories-grid .digiplanet-col-2 {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.digiplanet-categories-grid .digiplanet-col-3 {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.digiplanet-categories-grid .digiplanet-col-4 {
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.digiplanet-category-card {
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: all 0.3s ease;
+}
+
+.digiplanet-category-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+}
+
+.digiplanet-category-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+.digiplanet-category-image {
+    position: relative;
+    overflow: hidden;
+    aspect-ratio: 16/9;
+}
+
+.digiplanet-category-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.5s ease;
+}
+
+.digiplanet-category-card:hover .digiplanet-category-image img {
+    transform: scale(1.05);
+}
+
+.digiplanet-category-placeholder {
+    width: 100%;
+    height: 100%;
+    background: #f0f0f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.digiplanet-category-placeholder .dashicons {
+    color: #646970;
+    font-size: 48px;
+    width: 48px;
+    height: 48px;
+}
+
+.digiplanet-category-content {
+    padding: 20px;
+    text-align: center;
+}
+
+.digiplanet-category-title {
+    margin: 0 0 10px 0;
+    font-size: 18px;
+    color: #1d2327;
+}
+
+.digiplanet-category-count {
+    display: block;
+    font-size: 12px;
+    color: #646970;
+    margin-bottom: 10px;
+}
+
+.digiplanet-category-description {
+    font-size: 14px;
+    color: #646970;
+    line-height: 1.5;
+}
+
+/* Product Search Widget */
+.digiplanet-product-search-widget {
+    position: relative;
+}
+
+.digiplanet-search-form {
+    position: relative;
+}
+
+.digiplanet-search-input {
+    width: 100%;
+    padding: 12px 50px 12px 20px;
+    border: 1px solid #8c8f94;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+.digiplanet-search-input:focus {
+    outline: none;
+    border-color: #2271b1;
+    box-shadow: 0 0 0 2px rgba(34, 113, 177, 0.1);
+}
+
+.digiplanet-search-submit {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50px;
+    background: #2271b1;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    color: white;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.digiplanet-search-submit:hover {
+    background: #135e96;
+}
+
+.digiplanet-search-results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: white;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    max-height: 400px;
+    overflow-y: auto;
+    display: none;
+    z-index: 1000;
+}
+
+.digiplanet-search-results.active {
+    display: block;
+}
+
+.digiplanet-search-result-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-bottom: 1px solid #f0f0f0;
+    text-decoration: none;
+    color: inherit;
+    transition: all 0.2s ease;
+}
+
+.digiplanet-search-result-item:last-child {
+    border-bottom: none;
+}
+
+.digiplanet-search-result-item:hover {
+    background: #f9f9f9;
+}
+
+.digiplanet-search-result-image {
+    width: 50px;
+    height: 50px;
+    flex-shrink: 0;
+}
+
+.digiplanet-search-result-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.digiplanet-search-result-content {
+    flex: 1;
+}
+
+.digiplanet-search-result-title {
+    margin: 0 0 5px 0;
+    font-size: 14px;
+    color: #1d2327;
+}
+
+.digiplanet-search-result-price {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2271b1;
+}
+
+.digiplanet-search-result-category {
+    font-size: 12px;
+    color: #646970;
+}
+
+.digiplanet-no-results {
+    padding: 20px;
+    text-align: center;
+    color: #646970;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .digiplanet-product-grid-widget .digiplanet-col-4,
+    .digiplanet-product-grid-widget .digiplanet-col-5,
+    .digiplanet-product-grid-widget .digiplanet-col-6 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .digiplanet-categories-grid .digiplanet-col-4 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .digiplanet-product-carousel-widget .slick-arrow {
+        width: 36px;
+        height: 36px;
+    }
+    
+    .digiplanet-product-carousel-widget .slick-arrow.slick-prev {
+        left: -10px;
+    }
+    
+    .digiplanet-product-carousel-widget .slick-arrow.slick-next {
+        right: -10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .digiplanet-product-grid-widget .digiplanet-col-2,
+    .digiplanet-product-grid-widget .digiplanet-col-3,
+    .digiplanet-product-grid-widget .digiplanet-col-4,
+    .digiplanet-product-grid-widget .digiplanet-col-5,
+    .digiplanet-product-grid-widget .digiplanet-col-6 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    
+    .digiplanet-categories-grid .digiplanet-col-2,
+    .digiplanet-categories-grid .digiplanet-col-3,
+    .digiplanet-categories-grid .digiplanet-col-4 {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}

@@ -1,0 +1,439 @@
+/* Digiplanet Digital Products - Responsive Styles */
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .digiplanet-container {
+        max-width: 960px;
+    }
+    
+    .digiplanet-product-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .digiplanet-checkout {
+        grid-template-columns: 1fr 300px;
+    }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+    .digiplanet-container {
+        max-width: 720px;
+    }
+    
+    .digiplanet-product-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    .digiplanet-checkout {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+    
+    .digiplanet-checkout-review {
+        position: static;
+    }
+    
+    .digiplanet-account-wrapper {
+        grid-template-columns: 1fr;
+    }
+    
+    .digiplanet-account-sidebar {
+        margin-bottom: 30px;
+    }
+    
+    .digiplanet-cart-table {
+        display: block;
+        overflow-x: auto;
+    }
+    
+    .digiplanet-cart-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .digiplanet-cart-actions .digiplanet-btn {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+    .digiplanet-container {
+        max-width: 540px;
+        padding: 0 20px;
+    }
+    
+    .digiplanet-product-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .digiplanet-product-card {
+        max-width: 400px;
+        margin: 0 auto;
+    }
+    
+    .digiplanet-carousel-item {
+        flex: 0 0 100%;
+    }
+    
+    .digiplanet-cart-table th,
+    .digiplanet-cart-table td {
+        padding: 10px 5px;
+        font-size: 14px;
+    }
+    
+    .digiplanet-cart-item .product-thumbnail img {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .digiplanet-quantity-selector input {
+        width: 40px;
+    }
+    
+    .digiplanet-mini-cart-dropdown {
+        width: 280px;
+        right: -50px;
+    }
+    
+    .digiplanet-account-nav a {
+        padding: 10px;
+        font-size: 14px;
+    }
+    
+    .digiplanet-account-dashboard {
+        grid-template-columns: 1fr;
+    }
+    
+    .digiplanet-form-row {
+        margin-bottom: 15px;
+    }
+    
+    .digiplanet-form-control {
+        padding: 10px;
+    }
+    
+    .digiplanet-btn {
+        padding: 10px 20px;
+        font-size: 14px;
+    }
+    
+    .digiplanet-section-title {
+        font-size: 24px;
+        margin-bottom: 20px;
+    }
+}
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+    .digiplanet-container {
+        padding: 0 15px;
+    }
+    
+    .digiplanet-product-grid {
+        gap: 20px;
+    }
+    
+    .digiplanet-product-image {
+        height: 180px;
+    }
+    
+    .digiplanet-product-content {
+        padding: 15px;
+    }
+    
+    .digiplanet-product-title {
+        font-size: 16px;
+    }
+    
+    .digiplanet-current-price {
+        font-size: 18px;
+    }
+    
+    .digiplanet-product-actions {
+        flex-direction: column;
+        gap: 10px;
+    }
+    
+    .digiplanet-product-actions .digiplanet-btn {
+        width: 100%;
+    }
+    
+    .digiplanet-cart-table {
+        font-size: 13px;
+    }
+    
+    .digiplanet-cart-table th:nth-child(2),
+    .digiplanet-cart-table td:nth-child(2),
+    .digiplanet-cart-table th:nth-child(6),
+    .digiplanet-cart-table td:nth-child(6) {
+        display: none;
+    }
+    
+    .digiplanet-mini-cart-dropdown {
+        width: 250px;
+        right: -80px;
+    }
+    
+    .digiplanet-checkout-form,
+    .digiplanet-checkout-review {
+        padding: 20px;
+    }
+    
+    .digiplanet-form-section h3 {
+        font-size: 18px;
+    }
+    
+    .digiplanet-payment-methods {
+        font-size: 14px;
+    }
+    
+    .digiplanet-account-main,
+    .digiplanet-account-sidebar {
+        padding: 20px;
+    }
+    
+    .digiplanet-account-user-avatar {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .digiplanet-dashboard-card {
+        padding: 20px;
+    }
+    
+    .digiplanet-dashboard-card .digiplanet-card-number {
+        font-size: 24px;
+    }
+}
+
+/* Mobile menu adjustments */
+@media (max-width: 767.98px) {
+    .digiplanet-mobile-menu-toggle {
+        display: block;
+    }
+    
+    .digiplanet-desktop-menu {
+        display: none;
+    }
+    
+    .digiplanet-mobile-menu {
+        display: none;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: white;
+        z-index: 9999;
+        padding: 20px;
+        overflow-y: auto;
+    }
+    
+    .digiplanet-mobile-menu.active {
+        display: block;
+    }
+    
+    .digiplanet-mobile-menu-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 30px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #eee;
+    }
+    
+    .digiplanet-mobile-menu-close {
+        background: none;
+        border: none;
+        font-size: 24px;
+        cursor: pointer;
+        color: #333;
+    }
+    
+    .digiplanet-mobile-nav {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+    }
+    
+    .digiplanet-mobile-nav li {
+        margin-bottom: 10px;
+    }
+    
+    .digiplanet-mobile-nav a {
+        display: block;
+        padding: 12px 15px;
+        color: #333;
+        text-decoration: none;
+        border-radius: 4px;
+        transition: background-color 0.3s;
+    }
+    
+    .digiplanet-mobile-nav a:hover {
+        background-color: #f5f5f5;
+    }
+    
+    .digiplanet-mobile-nav a.active {
+        background-color: #3498db;
+        color: white;
+    }
+}
+
+/* Print styles */
+@media print {
+    .digiplanet-no-print,
+    .digiplanet-mini-cart,
+    .digiplanet-add-to-cart,
+    .digiplanet-account-nav,
+    .digiplanet-cart-actions,
+    .digiplanet-checkout-actions {
+        display: none !important;
+    }
+    
+    .digiplanet-container {
+        max-width: 100%;
+        padding: 0;
+    }
+    
+    .digiplanet-product-grid,
+    .digiplanet-checkout,
+    .digiplanet-account-wrapper {
+        display: block;
+    }
+    
+    .digiplanet-product-card {
+        break-inside: avoid;
+        margin-bottom: 20px;
+    }
+    
+    .digiplanet-cart-table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    .digiplanet-cart-table th,
+    .digiplanet-cart-table td {
+        border: 1px solid #ddd;
+        padding: 8px;
+    }
+}
+
+/* High DPI screens */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    .digiplanet-product-image img {
+        image-rendering: -webkit-optimize-contrast;
+        image-rendering: crisp-edges;
+    }
+    
+    .digiplanet-btn {
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+    }
+}
+
+/* Reduced motion */
+@media (prefers-reduced-motion: reduce) {
+    .digiplanet-product-card,
+    .digiplanet-btn,
+    .digiplanet-carousel-item,
+    .digiplanet-mini-cart-dropdown {
+        transition: none !important;
+    }
+    
+    .digiplanet-product-image img {
+        transition: none !important;
+    }
+}
+
+/* Dark mode support */
+@media (prefers-color-scheme: dark) {
+    .digiplanet-product-card,
+    .digiplanet-cart,
+    .digiplanet-checkout-form,
+    .digiplanet-checkout-review,
+    .digiplanet-account-main,
+    .digiplanet-account-sidebar {
+        background-color: #2d3748;
+        border-color: #4a5568;
+        color: #e2e8f0;
+    }
+    
+    .digiplanet-product-title a,
+    .digiplanet-cart-table th,
+    .digiplanet-cart-table td,
+    .digiplanet-totals-table th,
+    .digiplanet-totals-table td,
+    .digiplanet-form-label,
+    .digiplanet-account-nav a {
+        color: #e2e8f0;
+    }
+    
+    .digiplanet-product-excerpt,
+    .digiplanet-cart-table td.product-price,
+    .digiplanet-form-control,
+    .digiplanet-account-user-info p {
+        color: #a0aec0;
+    }
+    
+    .digiplanet-btn-primary {
+        background-color: #4299e1;
+        border-color: #4299e1;
+    }
+    
+    .digiplanet-btn-primary:hover {
+        background-color: #3182ce;
+        border-color: #3182ce;
+    }
+    
+    .digiplanet-btn-secondary {
+        background-color: #718096;
+        border-color: #718096;
+    }
+    
+    .digiplanet-btn-secondary:hover {
+        background-color: #4a5568;
+        border-color: #4a5568;
+    }
+    
+    .digiplanet-form-control {
+        background-color: #4a5568;
+        border-color: #718096;
+        color: #e2e8f0;
+    }
+    
+    .digiplanet-cart-table {
+        border-color: #4a5568;
+    }
+    
+    .digiplanet-cart-table th {
+        background-color: #4a5568;
+    }
+    
+    .digiplanet-cart-table td {
+        border-bottom-color: #4a5568;
+    }
+    
+    .digiplanet-checkout-review {
+        background-color: #4a5568;
+    }
+    
+    .digiplanet-account-sidebar {
+        background-color: #4a5568;
+    }
+    
+    .digiplanet-account-nav a:hover,
+    .digiplanet-account-nav a.active {
+        background-color: #4299e1;
+    }
+    
+    .digiplanet-dashboard-card {
+        background-color: #4a5568;
+    }
+    
+    .digiplanet-dashboard-card h3 {
+        color: #a0aec0;
+    }
+}

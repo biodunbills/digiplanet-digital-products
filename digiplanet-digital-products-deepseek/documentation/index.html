@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digiplanet Digital Products Documentation</title>
+    <link rel="stylesheet" href="css/docs-style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="docs-container">
+        <aside class="docs-sidebar">
+            <div class="docs-logo">
+                <h1><i class="fas fa-cube"></i> Digiplanet</h1>
+                <p>Digital Products Plugin</p>
+            </div>
+            
+            <nav class="docs-nav">
+                <ul>
+                    <li><a href="#getting-started" class="active"><i class="fas fa-rocket"></i> Getting Started</a></li>
+                    <li><a href="#installation"><i class="fas fa-download"></i> Installation</a></li>
+                    <li><a href="#configuration"><i class="fas fa-cog"></i> Configuration</a></li>
+                    <li><a href="#products"><i class="fas fa-box"></i> Managing Products</a></li>
+                    <li><a href="#payments"><i class="fas fa-credit-card"></i> Payment Setup</a></li>
+                    <li><a href="#elementor"><i class="fas fa-puzzle-piece"></i> Elementor Widgets</a></li>
+                    <li><a href="#shortcodes"><i class="fas fa-code"></i> Shortcodes</a></li>
+                    <li><a href="#user-portal"><i class="fas fa-user-circle"></i> User Portal</a></li>
+                    <li><a href="#troubleshooting"><i class="fas fa-life-ring"></i> Troubleshooting</a></li>
+                    <li><a href="#faq"><i class="fas fa-question-circle"></i> FAQ</a></li>
+                </ul>
+            </nav>
+            
+            <div class="docs-version">
+                <p>Version 1.0.0</p>
+            </div>
+        </aside>
+        
+        <main class="docs-content">
+            <section id="getting-started" class="docs-section">
+                <h1><i class="fas fa-rocket"></i> Getting Started</h1>
+                <p>Welcome to Digiplanet Digital Products plugin documentation. This plugin allows you to sell digital products (scripts, themes, plugins, etc.) on your WordPress website with ease.</p>
+                
+                <div class="docs-features">
+                    <div class="feature-card">
+                        <i class="fas fa-shopping-cart"></i>
+                        <h3>Complete E-commerce</h3>
+                        <p>Full shopping cart and checkout system</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-credit-card"></i>
+                        <h3>Multiple Payments</h3>
+                        <p>Stripe and Paystack integration</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <h3>Elementor Ready</h3>
+                        <p>Built-in Elementor widgets</p>
+                    </div>
+                    <div class="feature-card">
+                        <i class="fas fa-users"></i>
+                        <h3>User Portal</h3>
+                        <p>Role-based customer portals</p>
+                    </div>
+                </div>
+            </section>
+            
+            <section id="installation" class="docs-section">
+                <h2><i class="fas fa-download"></i> Installation</h2>
+                
+                <h3>Requirements</h3>
+                <ul>
+                    <li>WordPress 5.8 or higher</li>
+                    <li>PHP 7.4 or higher</li>
+                    <li>MySQL 5.6 or higher</li>
+                    <li>Elementor Pro (optional, for widgets)</li>
+                </ul>
+                
+                <h3>Installation Steps</h3>
+                <ol>
+                    <li>Go to WordPress Admin → Plugins → Add New</li>
+                    <li>Click "Upload Plugin" and choose the zip file</li>
+                    <li>Click "Install Now"</li>
+                    <li>Activate the plugin</li>
+                    <li>Go to Digital Products → Settings to configure</li>
+                </ol>
+                
+                <div class="docs-note">
+                    <strong>Note:</strong> The plugin will automatically create necessary database tables and default pages.
+                </div>
+            </section>
+            
+            <section id="configuration" class="docs-section">
+                <h2><i class="fas fa-cog"></i> Configuration</h2>
+                
+                <h3>General Settings</h3>
+                <p>Configure your store settings from Digital Products → Settings → General:</p>
+                <ul>
+                    <li><strong>Currency:</strong> Set your store currency</li>
+                    <li><strong>Currency Position:</strong> Choose where currency symbol appears</li>
+                    <li><strong>Tax Settings:</strong> Enable tax and set tax rate</li>
+                </ul>
+                
+                <h3>Payment Gateways</h3>
+                <p>Configure payment methods from their respective tabs:</p>
+                
+                <h4>Stripe Configuration</h4>
+                <ol>
+                    <li>Get your API keys from <a href="https://stripe.com" target="_blank">Stripe Dashboard</a></li>
+                    <li>Enable Stripe in settings</li>
+                    <li>Enter Test/Live keys</li>
+                    <li>Configure webhook URL</li>
+                </ol>
+                
+                <h4>Paystack Configuration</h4>
+                <ol>
+                    <li>Get your API keys from <a href="https://paystack.com" target="_blank">Paystack Dashboard</a></li>
+                    <li>Enable Paystack in settings</li>
+                    <li>Enter Test/Live keys</li>
+                </ol>
+            </section>
+            
+            <section id="products" class="docs-section">
+                <h2><i class="fas fa-box"></i> Managing Products</h2>
+                
+                <h3>Adding Products</h3>
+                <ol>
+                    <li>Go to Digital Products → Products → Add New</li>
+                    <li>Enter product details (name, description, price)</li>
+                    <li>Upload product files</li>
+                    <li>Set product categories and tags</li>
+                    <li>Configure download limits and license type</li>
+                    <li>Publish the product</li>
+                </ol>
+                
+                <h3>Product Categories</h3>
+                <p>Organize products using categories and subcategories from Digital Products → Categories.</p>
+                
+                <h3>Product Attributes</h3>
+                <ul>
+                    <li><strong>Price:</strong> Regular price of the product</li>
+                    <li><strong>Sale Price:</strong> Discounted price (optional)</li>
+                    <li><strong>Download File:</strong> Upload the digital product file</li>
+                    <li><strong>Download Limit:</strong> Number of allowed downloads (0 = unlimited)</li>
+                    <li><strong>License Type:</strong> Single, Multi-site, or Developer license</li>
+                    <li><strong>Requirements:</strong> System requirements for the product</li>
+                </ul>
+            </section>
+            
+            <section id="elementor" class="docs-section">
+                <h2><i class="fas fa-puzzle-piece"></i> Elementor Widgets</h2>
+                
+                <p>The plugin includes several Elementor widgets for easy product display:</p>
+                
+                <h3>Available Widgets</h3>
+                <ul>
+                    <li><strong>Product Grid:</strong> Display products in grid layout</li>
+                    <li><strong>Product Carousel:</strong> Product slider/carousel</li>
+                    <li><strong>Product Categories:</strong> Show product categories</li>
+                    <li><strong>Product Search:</strong> Add product search functionality</li>
+                    <li><strong>Add to Cart Button:</strong> Direct add to cart button</li>
+                </ul>
+                
+                <h3>Using Widgets</h3>
+                <ol>
+                    <li>Edit page with Elementor</li>
+                    <li>Search for "Digiplanet" widgets</li>
+                    <li>Drag and drop widget to page</li>
+                    <li>Configure widget settings</li>
+                    <li>Save and preview</li>
+                </ol>
+            </section>
+            
+            <section id="shortcodes" class="docs-section">
+                <h2><i class="fas fa-code"></i> Shortcodes</h2>
+                
+                <p>Use these shortcodes to display plugin features anywhere:</p>
+                
+                <h3>Product Grid</h3>
+                <pre><code>[digiplanet_products category="category-slug" limit="12" columns="4"]</code></pre>
+                
+                <h3>Shopping Cart</h3>
+                <pre><code>[digiplanet_cart]</code></pre>
+                
+                <h3>Checkout</h3>
+                <pre><code>[digiplanet_checkout]</code></pre>
+                
+                <h3>User Account</h3>
+                <pre><code>[digiplanet_account]</code></pre>
+                
+                <h3>Product Search</h3>
+                <pre><code>[digiplanet_product_search]</code></pre>
+            </section>
+            
+            <section id="user-portal" class="docs-section">
+                <h2><i class="fas fa-user-circle"></i> User Portal</h2>
+                
+                <h3>User Roles</h3>
+                <ul>
+                    <li><strong>Digital Customer:</strong> Can register, purchase products, view orders and licenses</li>
+                    <li><strong>Software Client:</strong> Created by admin, access to client portal with support and documents</li>
+                </ul>
+                
+                <h3>Portal Features</h3>
+                <p>Digital Customers can:</p>
+                <ul>
+                    <li>View purchased products</li>
+                    <li>Download products</li>
+                    <li>View order history</li>
+                    <li>Manage licenses</li>
+                    <li>Submit reviews</li>
+                </ul>
+                
+                <p>Software Clients can:</p>
+                <ul>
+                    <li>Access project documents</li>
+                    <li>Submit support tickets</li>
+                    <li>View project progress</li>
+                    <li>Access billing information</li>
+                </ul>
+            </section>
+            
+            <section id="troubleshooting" class="docs-section">
+                <h2><i class="fas fa-life-ring"></i> Troubleshooting</h2>
+                
+                <h3>Common Issues</h3>
+                
+                <h4>Payment Not Working</h4>
+                <ul>
+                    <li>Check API keys are correct</li>
+                    <li>Verify webhook URL is set correctly</li>
+                    <li>Ensure currency matches payment processor</li>
+                </ul>
+                
+                <h4>Downloads Not Working</h4>
+                <ul>
+                    <li>Check file permissions</li>
+                    <li>Verify download limits aren't exceeded</li>
+                    <li>Check if license is active</li>
+                </ul>
+                
+                <h4>Elementor Widgets Missing</h4>
+                <ul>
+                    <li>Ensure Elementor is installed and activated</li>
+                    <li>Clear WordPress cache</li>
+                    <li>Re-save permalinks</li>
+                </ul>
+            </section>
+            
+            <section id="faq" class="docs-section">
+                <h2><i class="fas fa-question-circle"></i> Frequently Asked Questions</h2>
+                
+                <div class="faq-item">
+                    <h3>Can I use both Stripe and Paystack?</h3>
+                    <p>Yes, you can enable both payment gateways and customers can choose during checkout.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I add custom fields to products?</h3>
+                    <p>Use the "Requirements" field or contact support for custom field development.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Can I sell subscription products?</h3>
+                    <p>Currently, the plugin supports one-time purchases only. Subscription support is planned for future updates.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>How do I customize email templates?</h3>
+                    <p>Copy email templates from plugin/templates/email to your theme folder and modify them.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3>Is the plugin translation ready?</h3>
+                    <p>Yes, the plugin uses WordPress translation system. You can find .pot file in languages folder.</p>
+                </div>
+            </section>
+            
+            <footer class="docs-footer">
+                <p>Need more help? <a href="mailto:support@digiplanetsolutions.com">Contact Support</a></p>
+                <p>© <?php echo date('Y'); ?> Digiplanet Solutions LLC. All rights reserved.</p>
+            </footer>
+        </main>
+    </div>
+    
+    <script src="js/docs-script.js"></script>
+</body>
+</html>
